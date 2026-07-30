@@ -1,7 +1,23 @@
 aid: miruvor-ai-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miruvor-ai-inc.png
 name: Miruvor AI Inc.
-description: Miruvor AI Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Miruvor AI Inc. is an early-stage deep-tech AI research lab building brain-inspired continual
+  learning models. Rather than scaling frozen, pre-trained models, Miruvor uses spiking neural networks
+  as its representational substrate together with local learning rules to build systems that learn from
+  experience in real time, with persistent memory and low-energy, neuromorphic efficiency. Founded out of
+  The Residency and backed by 500 Global, the company is pre-product and publishes no public API, SDK,
+  developer portal, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/miruvor-ai-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Neuromorphic Computing
+- Continual Learning
+- Spiking Neural Networks
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/miruvor-ai-inc-domain-security.yml
 - type: Website
   url: https://miruvor.ai
+- type: Support
+  url: https://www.miruvor.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/miruvorai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
