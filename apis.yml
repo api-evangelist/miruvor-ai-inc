@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miruvor-ai-inc.png
-name: Miruvor AI Inc.
+name: Miruvor AI
 description: Miruvor AI Inc. is an early-stage deep-tech AI research lab building brain-inspired continual
   learning models. Rather than scaling frozen, pre-trained models, Miruvor uses spiking neural networks
   as its representational substrate together with local learning rules to build systems that learn from
@@ -42,7 +42,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Neuromorphic Computing
 - Continual Learning
 - Spiking Neural Networks
@@ -55,6 +55,7 @@ tags_raw:
 - Continual Learning
 - Spiking Neural Networks
 - Research
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -75,3 +76,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Miruvor AI Inc.
